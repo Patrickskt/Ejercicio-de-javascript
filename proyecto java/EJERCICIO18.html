@@ -1,0 +1,19 @@
+<script>
+    let a=0, b=1, c=0, i=0, s= 0, p=0, cont=0;
+    n= prompt ("ingrese el valor de N: ");
+    a=0, b=1;
+    document.write ("NUMEROS FUBONACCI CON SUS DIVISORES")
+    while (i < n) {
+        i++;
+         c=a+b, b=a, a=c, s=c+s;
+            document.write("<br>",c, " = ");
+            cont=0;
+            while (cont <= c){
+                cont++;
+                if (c % cont == 0){
+                    document.write(cont," - ");
+                }
+            }
+            } {
+        }
+</script>
